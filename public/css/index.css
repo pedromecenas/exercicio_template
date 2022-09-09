@@ -1,0 +1,65 @@
+body {
+  background-image: linear-gradient( to left, white,grey)
+}
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navItem {
+  background-color: coral;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 15px;
+  width: 15%;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.navItem:hover {
+  background-color: green;
+}
+a {
+  text-decoration: none;
+}
+
+.minhaFoto {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+
+.projeto {
+  list-style: none;
+  background-color: antiquewhite;
+  margin: 15px;
+  width: 40%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.descritor {
+  font-size: large;
+}
+
+img{
+  margin: auto;
+  display: block;
+}
+
+.name{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.list-projects{
+  text-align: center;
+  position: relative;
+}
+
+.projects{
+  text-align: center;
+}
