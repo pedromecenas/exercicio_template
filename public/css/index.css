@@ -9,7 +9,8 @@ body {
 }
 
 .navItem {
-  background-color: coral;
+  background-color: #C58DDF;
+  color: #4F3859;
   padding: 10px;
   border-radius: 15px;
   margin-left: 15px;
@@ -20,7 +21,9 @@ body {
 }
 
 .navItem:hover {
-  background-color: green;
+  background-color: #4F3859;
+  color: #C58DDF;
+  transition: 200ms;
 }
 a {
   text-decoration: none;
@@ -34,16 +37,16 @@ a {
 
 .projeto {
   list-style: none;
-  background-color: antiquewhite;
-  margin: 15px;
-  width: 40%;
+  background-color: #A29AA6;
   border-radius: 15px;
   padding: 10px;
+  margin: 3px;
+  max-width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.descritor {
-  font-size: large;
-}
 
 img{
   margin: auto;
@@ -55,11 +58,6 @@ img{
   font-family: 'Courier New', Courier, monospace;
 }
 
-.list-projects{
-  text-align: center;
-  position: relative;
-}
-
-.projects{
+.projects-title{
   text-align: center;
 }

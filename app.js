@@ -21,9 +21,9 @@ app.get("/profile", (req, res) => {
 app.get("/projects", listProjects);
 
 function listProjects(req, res) {
-  let projeto_1 = new Projeto("software", "JavaScript", 2020, 2023);
-  let projeto_2 = new Projeto("Software", "Html,css", 2020, 2021);
-  let projeto_3 = new Projeto("software", "Documentos", 2021, 2021);
+  let projeto_1 = new Projeto("Pycemaker","software", "JavaScript", 2020, 2023);
+  let projeto_2 = new Projeto("Onlymotors","Software", "Html,css", 2020, 2021);
+  let projeto_3 = new Projeto("EasyATA","software", "Documentos", 2021, 2021);
   let projetos = [];
   projetos.push(projeto_1);
   projetos.push(projeto_2);
